@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_wear_capabilities">
+        <item>snapshot_from_wear</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_1">false</item>
+    <item type="array" name="APKTOOL_DUMMY_2">false</item>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <string-array name="pref_median_entries">
+        <item>@string/lib_off</item>
+        <item>@string/frames_off</item>
+        <item>@string/images_qua_on</item>
+        <item>@string/images_qua_plus</item>
+        <item>@string/max</item>
+    </string-array>
+    <string-array name="pref_median_entryvalues">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_blur_entries">
+        <item>@string/lib_off</item>
+        <item>@string/frames_off</item>
+        <item>@string/images_qua_on</item>
+        <item>@string/images_qua_plus</item>
+    </string-array>
+    <string-array name="pref_blur_entryvalues">
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="pref_sharpen_entries">
+        <item>@string/lib_off</item>
+        <item>@string/frames_off</item>
+        <item>@string/images_qua_on</item>
+        <item>@string/images_qua_plus</item>
+        <item>@string/extreme</item>
+        <item>@string/ultra</item>
+    </string-array>
+    <string-array name="pref_sharpen_entryvalues">
+        <item>0</item>
+        <item>2</item>
+        <item>6</item>
+        <item>12</item>
+        <item>25</item>
+        <item>32</item>
+    </string-array>
+    <string-array name="pref_vignette_size_entries">
+        <item>@string/small</item>
+        <item>@string/middle</item>
+        <item>@string/big</item>
+        <item>@string/huge</item>
+    </string-array>
+    <string-array name="pref_vignette_size_entriesvalues">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entries">
+        <item>@string/pref_camera_picturesize_default</item>
+        <item>@string/pref_camera_picturesize_medium</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entryvalues">
+        <item>full</item>
+        <item>medium</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_10">false</item>
+    <string-array name="pref_double_tap_action_entries">
+        <item>@string/double_tap_zoom</item>
+        <item>@string/double_tap_switch_camera</item>
+        <item>@string/setting_off</item>
+    </string-array>
+    <string-array name="pref_double_tap_entryvalues">
+        <item>@string/preference_double_tap_zoom</item>
+        <item>@string/preference_double_tap_switch_camera</item>
+        <item>@string/preference_double_tap_none</item>
+    </string-array>
+    <string-array name="pref_grid_mode_entries">
+        <item>@string/grid_mode_off</item>
+        <item>@string/grid_mode_three_by_three</item>
+        <item>@string/grid_mode_four_by_four</item>
+        <item>@string/grid_mode_golden_ratio</item>
+    </string-array>
+    <string-array name="pref_grid_mode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_vignette_strengh_entries">
+        <item>@string/frames_off</item>
+        <item>@string/images_qua_on</item>
+        <item>@string/images_qua_plus</item>
+        <item>@string/max</item>
+    </string-array>
+    <string-array name="pref_vignette_strengh_entriesvalues">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_exposure_compensation_entries">
+        <item>-2.0</item>
+        <item>-1.8</item>
+        <item>-1.6</item>
+        <item>-1.4</item>
+        <item>-1.2</item>
+        <item>-1.0</item>
+        <item>-0.8</item>
+        <item>-0.6</item>
+        <item>-0.4</item>
+        <item>-0.2</item>
+        <item>@string/lib_off</item>
+        <item>+0.2</item>
+        <item>+0.4</item>
+        <item>+0.6</item>
+        <item>+0.8</item>
+        <item>+1.0</item>
+        <item>+1.2</item>
+        <item>+1.4</item>
+        <item>+1.6</item>
+        <item>+1.8</item>
+        <item>+2.0</item>
+    </string-array>
+    <string-array name="pref_exposure_compensation_entriesvalues">
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+5</item>
+        <item>+6</item>
+        <item>+7</item>
+        <item>+8</item>
+        <item>+9</item>
+        <item>+10</item>
+    </string-array>
+    <string-array name="pref_saturation_entries">
+        <item>0 (black&amp;white)</item>
+        <item>-80%</item>
+        <item>-60%</item>
+        <item>-40%</item>
+        <item>-20%</item>
+        <item>@string/lib_off</item>
+        <item>+20%</item>
+        <item>+40%</item>
+        <item>+60%</item>
+        <item>+80%</item>
+        <item>+100%</item>
+    </string-array>
+    <string-array name="pref_saturation_entryvalues">
+        <item>-10</item>
+        <item>-8</item>
+        <item>-6</item>
+        <item>-4</item>
+        <item>-2</item>
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_1b">false</item>
+    <string-array name="pref_volume_action_entries">
+        <item>@string/volume_key_shutter</item>
+        <item>@string/volume_key_zoom</item>
+        <item>@string/volume_key_volume</item>
+        <item>@string/volume_key_off</item>
+    </string-array>
+    <string-array name="pref_volume_action_entryvalues">
+        <item>@string/preference_volume_key_shutter</item>
+        <item>@string/preference_volume_key_zoom</item>
+        <item>@string/preference_volume_key_volume</item>
+        <item>@string/preference_volume_key_off</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_1e">false</item>
+    <string-array name="pr_hex_entries">
+        <item>@string/lib_on</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="pr_hex_entryvalues">
+        <item>18</item>
+        <item>210</item>
+    </string-array>
+    <string-array name="toybox_hfr_mode_descriptions">
+        <item>@string/hfr_mode_120fps</item>
+        <item>@string/hfr_mode_240fps</item>
+    </string-array>
+    <string-array name="toybox_hfr_mode_rates">
+        <item>@string/hfr_fps_120</item>
+        <item>@string/hfr_fps_240</item>
+    </string-array>
+    <string-array name="trusted_certificates">
+        <item>4BA713DFECE93D47572DC5E845A7A82C4A891F2F</item>
+        <item>24BB24C05E47E0AEFA68A58A766179D9B613A600</item>
+    </string-array>
+    <string-array name="pref_init_mf_entries">
+        <item>@string/pref_checkbox_mf_enabled_auto</item>
+        <item>@string/pref_checkbox_mf_enabled_macro</item>
+        <item>@string/pref_checkbox_mf_enabled_portrait</item>
+        <item>ID4</item>
+        <item>ID5</item>
+    </string-array>
+    <string-array name="pref_init_mf_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_ehn_awb_entries">
+        <item>Google Pixel 2</item>
+        <item>Google Pixel 2 Front</item>
+        <item>Google Pixel 3</item>
+        <item>Google Pixel 3a</item>
+        <item>Google Pixel 4</item>
+        <item>Google Pixel 4 Front</item>
+        <item>Google Pixel 4 Tele</item>
+        <item>Samsung S5KGM1</item>
+        <item>Samsung S5KGW1</item>
+        <item>Samsung S5KGW1 12k21k</item>
+        <item>Sony IMX586</item>
+        <item>Sony IMX586_OFILM</item>
+        <item>Omnivision OV13855</item>
+        <item>Omnivision OV13855 12k21k</item>
+        <item>Sony IMX586_SEMCO</item>
+        <item>Sony IMX586_CEPHEUS</item>
+        <item>Sony IMX363</item>
+        <item>Sony IMX586_VIOLET</item>
+        <item>Samsung S5KHMX</item>
+        <item>Samsung S5KHMX 12k21k</item>
+    </string-array>
+    <string-array name="pref_ehn_awb_entryvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="pref_frames_entries">
+        <item>@string/pref_frames_9</item>
+        <item>@string/pref_frames_15</item>
+        <item>@string/pref_frames_25</item>
+    </string-array>
+    <string-array name="pref_frames_entryvalues">
+        <item>9</item>
+        <item>15</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="pref_bitrate_entries">
+        <item>@string/pref_aemode_0</item>
+        <item>@string/pref_bitrate_2</item>
+        <item>@string/pref_bitrate_3</item>
+        <item>@string/pref_bitrate_4</item>
+        <item>@string/pref_bitrate_5</item>
+        <item>@string/pref_bitrate_6</item>
+        <item>@string/pref_bitrate_7</item>
+        <item>@string/pref_bitrate_8</item>
+        <item>@string/pref_bitrate_9</item>
+        <item>@string/pref_bitrate_10</item>
+        <item>@string/pref_bitrate_11</item>
+    </string-array>
+    <string-array name="pref_bitrate_entryvalues">
+        <item>0</item>
+        <item>10000000</item>
+        <item>15000000</item>
+        <item>20000000</item>
+        <item>30000000</item>
+        <item>40000000</item>
+        <item>50000000</item>
+        <item>60000000</item>
+        <item>70000000</item>
+        <item>80000000</item>
+        <item>100000000</item>
+    </string-array>
+    <string-array name="curve_srange_entries">
+        <item>2.00</item>
+        <item>1.75</item>
+        <item>1.66</item>
+        <item>1.50</item>
+        <item>1.33</item>
+        <item>1.25</item>
+        <item>1.00</item>
+        <item>0.75</item>
+        <item>0.66</item>
+        <item>0.50</item>
+        <item>0.33</item>
+        <item>0.25</item>
+    </string-array>
+    <string-array name="curve_srange_entryvalues">
+        <item>2000</item>
+        <item>1750</item>
+        <item>1667</item>
+        <item>1500</item>
+        <item>1333</item>
+        <item>1250</item>
+        <item>1000</item>
+        <item>750</item>
+        <item>667</item>
+        <item>500</item>
+        <item>333</item>
+        <item>250</item>
+    </string-array>
+    <string-array name="curve_level_entries">
+        <item>30</item>
+        <item>29</item>
+        <item>28</item>
+        <item>27</item>
+        <item>26</item>
+        <item>25</item>
+        <item>24</item>
+        <item>23</item>
+        <item>22</item>
+        <item>21</item>
+        <item>20</item>
+        <item>19</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>@string/curve_level_whites</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+        <item>@string/curve_level_darks</item>
+        <item>-7</item>
+        <item>-8</item>
+        <item>-9</item>
+        <item>-10</item>
+        <item>-11</item>
+        <item>-12</item>
+        <item>-13</item>
+        <item>-14</item>
+        <item>-15</item>
+        <item>-16</item>
+        <item>-17</item>
+        <item>-18</item>
+        <item>-19</item>
+        <item>-20</item>
+        <item>-21</item>
+        <item>-22</item>
+        <item>-23</item>
+        <item>-24</item>
+        <item>-25</item>
+        <item>-26</item>
+        <item>-27</item>
+        <item>-28</item>
+        <item>-29</item>
+        <item>-30</item>
+    </string-array>
+    <string-array name="curve_level_entryvalues">
+        <item>30</item>
+        <item>29</item>
+        <item>28</item>
+        <item>27</item>
+        <item>26</item>
+        <item>25</item>
+        <item>24</item>
+        <item>23</item>
+        <item>22</item>
+        <item>21</item>
+        <item>20</item>
+        <item>19</item>
+        <item>18</item>
+        <item>17</item>
+        <item>16</item>
+        <item>15</item>
+        <item>14</item>
+        <item>13</item>
+        <item>12</item>
+        <item>11</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-8</item>
+        <item>-9</item>
+        <item>-10</item>
+        <item>-11</item>
+        <item>-12</item>
+        <item>-13</item>
+        <item>-14</item>
+        <item>-15</item>
+        <item>-16</item>
+        <item>-17</item>
+        <item>-18</item>
+        <item>-19</item>
+        <item>-20</item>
+        <item>-21</item>
+        <item>-22</item>
+        <item>-23</item>
+        <item>-24</item>
+        <item>-25</item>
+        <item>-26</item>
+        <item>-27</item>
+        <item>-28</item>
+        <item>-29</item>
+        <item>-30</item>
+    </string-array>
+    <string-array name="finelib_hex_entryvalues">
+        <item>1</item>
+        <item>1251</item>
+        <item>2501</item>
+        <item>3751</item>
+        <item>5001</item>
+        <item>6251</item>
+        <item>7501</item>
+        <item>8751</item>
+        <item>10001</item>
+        <item>11251</item>
+        <item>12501</item>
+        <item>13751</item>
+        <item>15001</item>
+        <item>16251</item>
+        <item>17501</item>
+        <item>18751</item>
+        <item>20001</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="lib_hex_entries">
+        <item>0</item>
+        <item>0.125</item>
+        <item>0.25</item>
+        <item>0.375</item>
+        <item>0.5</item>
+        <item>0.625</item>
+        <item>0.75</item>
+        <item>0.875</item>
+        <item>@string/pref_hex_1000</item>
+        <item>1.125</item>
+        <item>1.25</item>
+        <item>1.375</item>
+        <item>1.5</item>
+        <item>1.625</item>
+        <item>1.75</item>
+        <item>1.875</item>
+        <item>2.0</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="lib_hex_entryvalues">
+        <item>0</item>
+        <item>125</item>
+        <item>250</item>
+        <item>375</item>
+        <item>500</item>
+        <item>625</item>
+        <item>750</item>
+        <item>875</item>
+        <item>1000</item>
+        <item>1125</item>
+        <item>1250</item>
+        <item>1375</item>
+        <item>1500</item>
+        <item>1625</item>
+        <item>1750</item>
+        <item>1875</item>
+        <item>2000</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="lib_noise_hex_entries">
+        <item>0</item>
+        <item>0.125</item>
+        <item>0.25</item>
+        <item>0.375</item>
+        <item>0.5</item>
+        <item>0.625</item>
+        <item>0.75</item>
+        <item>0.875</item>
+        <item>@string/pref_noise_hex_1000</item>
+        <item>1.125</item>
+        <item>1.25</item>
+        <item>1.375</item>
+        <item>1.5</item>
+        <item>1.625</item>
+        <item>1.75</item>
+        <item>1.875</item>
+        <item>2.0</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="exposure_entries">
+        <item>-2,0</item>
+        <item>-1,8</item>
+        <item>-1,6</item>
+        <item>-1,4</item>
+        <item>-1,2</item>
+        <item>-1,0</item>
+        <item>-0,8</item>
+        <item>-0,6</item>
+        <item>-0,4</item>
+        <item>-0,2</item>
+        <item>0</item>
+        <item>+0,2</item>
+        <item>+0,4</item>
+        <item>+0,6</item>
+        <item>+0,8</item>
+        <item>+1,0</item>
+        <item>+1,2</item>
+        <item>+1,4</item>
+        <item>+1,6</item>
+        <item>+1,8</item>
+        <item>+2,0</item>
+    </string-array>
+    <string-array name="exposure_entryvalues">
+        <item>-10</item>
+        <item>-9</item>
+        <item>-8</item>
+        <item>-7</item>
+        <item>-6</item>
+        <item>-5</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+        <item>+3</item>
+        <item>+4</item>
+        <item>+5</item>
+        <item>+6</item>
+        <item>+7</item>
+        <item>+8</item>
+        <item>+9</item>
+        <item>+10</item>
+    </string-array>
+    <string-array name="pref_aemode_entries">
+        <item>@string/pref_aemode_0</item>
+        <item>ISO 1600</item>
+        <item>ISO 800</item>
+        <item>ISO 500</item>
+        <item>ISO 400</item>
+        <item>ISO 300</item>
+        <item>ISO 200</item>
+        <item>@string/pref_aemode_5</item>
+        <item>Time 2.0 s</item>
+        <item>Time 1.0 s</item>
+        <item>Time 1/2 s</item>
+        <item>Time 1/3 s</item>
+        <item>Time 1/5 s</item>
+        <item>Time 1/7 s</item>
+        <item>Time 1/10 s</item>
+        <item>Time 1/15 s</item>
+        <item>Time 1/20 s</item>
+        <item>Time 1/33 s</item>
+        <item>Time 1/50 s</item>
+        <item>Time 1/67 s</item>
+        <item>Time 1/100 s</item>
+        <item>Time 1/200 s</item>
+        <item>Time 1/500 s</item>
+        <item>Time 1/1000 s</item>
+    </string-array>
+    <string-array name="pref_aemode_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="pref_aemodef_entries">
+        <item>@string/pref_aemodef_0</item>
+        <item>ISO 500</item>
+        <item>ISO 400</item>
+        <item>ISO 300</item>
+        <item>ISO 200</item>
+        <item>@string/pref_aemode_5</item>
+        <item>Time 1/3 s</item>
+        <item>Time 1/5 s</item>
+        <item>Time 1/7 s</item>
+        <item>Time 1/10 s</item>
+        <item>Time 1/20 s</item>
+        <item>Time 1/33 s</item>
+        <item>Time 1/50 s</item>
+        <item>Time 1/67 s</item>
+        <item>Time 1/100 s</item>
+        <item>Time 1/200 s</item>
+        <item>Time 1/500 s</item>
+    </string-array>
+    <string-array name="pref_aemodef_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="pref_maxexpsec_entries">
+        <item>@string/pref_default</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="pref_maxexpsec_entryvalues">
+        <item>0</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>10000</item>
+        <item>12000</item>
+        <item>15000</item>
+        <item>20000</item>
+        <item>30000</item>
+        <item>40000</item>
+        <item>50000</item>
+        <item>59000</item>
+        <item>60000</item>
+    </string-array>
+    <string-array name="hex_contr2_entries">
+        <item>2,50</item>
+        <item>2,40</item>
+        <item>2,38</item>
+        <item>2,33</item>
+        <item>2,27</item>
+        <item>@string/pref_contr2_default</item>
+        <item>2,17</item>
+        <item>2,13</item>
+        <item>2,08</item>
+        <item>2,04</item>
+        <item>2,00</item>
+        <item>1,96</item>
+        <item>1,92</item>
+        <item>1,89</item>
+        <item>1,85</item>
+        <item>1,82</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="hex_contr2_entryvalues">
+        <item>400</item>
+        <item>410</item>
+        <item>420</item>
+        <item>430</item>
+        <item>440</item>
+        <item>450</item>
+        <item>460</item>
+        <item>470</item>
+        <item>480</item>
+        <item>490</item>
+        <item>50000</item>
+        <item>510</item>
+        <item>520</item>
+        <item>530</item>
+        <item>540</item>
+        <item>550</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="pref_quality_jpg_entries">
+        <item>95%</item>
+        <item>96%</item>
+        <item>97%</item>
+        <item>98%</item>
+        <item>99%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="pref_quality_jpg_entryvalues">
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="pref_exposure_max_time_entries">
+        <item>@string/pref_exposure_max_time_0</item>
+        <item>@string/pref_exposure_max_time_1</item>
+        <item>@string/pref_exposure_max_time_2</item>
+        <item>@string/pref_exposure_max_time_3</item>
+        <item>@string/pref_exposure_max_time_4</item>
+        <item>@string/pref_exposure_max_time_5</item>
+    </string-array>
+    <string-array name="pref_exposure_max_time_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="lib_hex_iso_entries">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+        <item>11000</item>
+        <item>12000</item>
+        <item>13000</item>
+        <item>14000</item>
+        <item>15000</item>
+        <item>16000</item>
+        <item>17000</item>
+        <item>18000</item>
+        <item>19000</item>
+        <item>20000</item>
+        <item>21000</item>
+        <item>22000</item>
+        <item>23000</item>
+        <item>24000</item>
+        <item>25000</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="lib_hex_iso_entryvalues">
+        <item>100000</item>
+        <item>250000</item>
+        <item>500000</item>
+        <item>750000</item>
+        <item>1000000</item>
+        <item>1500000</item>
+        <item>2000000</item>
+        <item>3000000</item>
+        <item>4000000</item>
+        <item>5000000</item>
+        <item>6000000</item>
+        <item>7000000</item>
+        <item>8000000</item>
+        <item>9000000</item>
+        <item>10000000</item>
+        <item>11000000</item>
+        <item>12000000</item>
+        <item>13000000</item>
+        <item>14000000</item>
+        <item>15000000</item>
+        <item>16000000</item>
+        <item>17000000</item>
+        <item>18000000</item>
+        <item>19000000</item>
+        <item>20000000</item>
+        <item>21000000</item>
+        <item>22000000</item>
+        <item>23000000</item>
+        <item>24000000</item>
+        <item>25000000</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="pref_sepia_entries">
+        <item>@string/lib_off</item>
+        <item>@string/frames_off</item>
+        <item>@string/images_qua_on</item>
+        <item>@string/images_qua_plus</item>
+    </string-array>
+    <string-array name="pref_sepia_entryvalues">
+        <item>0</item>
+        <item>33</item>
+        <item>66</item>
+        <item>100</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_34">false</item>
+    <item type="array" name="APKTOOL_DUMMY_35">false</item>
+    <string-array name="pref_sharpen2_entries">
+        <item>@string/lib_off</item>
+        <item>0.2</item>
+        <item>0.4</item>
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+    </string-array>
+    <string-array name="pref_sharpen2_entryvalues">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="hex_dnrl1_entryvalues">
+        <item>9932</item>
+        <item>9964</item>
+        <item>99128</item>
+        <item>99192</item>
+        <item>99256</item>
+        <item>99320</item>
+        <item>99384</item>
+        <item>99448</item>
+        <item>99512</item>
+        <item>99576</item>
+        <item>99640</item>
+        <item>99704</item>
+        <item>99768</item>
+        <item>99832</item>
+        <item>99896</item>
+        <item>99960</item>
+        <item>991024</item>
+        <item>992048</item>
+        <item>16384</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="hex_dnrl1_entries">
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>192</item>
+        <item>256</item>
+        <item>320</item>
+        <item>384</item>
+        <item>448</item>
+        <item>512</item>
+        <item>576</item>
+        <item>640</item>
+        <item>704</item>
+        <item>768</item>
+        <item>832</item>
+        <item>896</item>
+        <item>960</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>16384</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="sort_desc_asce_entries">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="sort_desc_asce_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_sabre_entries">
+        <item>@string/lib_on</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="pref_sabre_entryvalues">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="libs_entries">
+        <item>@string/pref_default</item>
+        <item>TN 1405</item>
+        <item>TN 2505</item>
+        <item>TN 0606</item>
+        <item>Odin by And_rjy</item>
+    </string-array>
+    <string-array name="libs_entryvalues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_tonecurve_points">
+        <item>+8</item>
+        <item>+7</item>
+        <item>+6</item>
+        <item>+5</item>
+        <item>+4</item>
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>@string/lib_off</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-8</item>
+    </string-array>
+    <string-array name="pref_tonecurve_points_entriesvalues">
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+        <item>10</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>100</item>
+        <item>0</item>
+        <item>-2</item>
+        <item>-4</item>
+        <item>-6</item>
+        <item>-8</item>
+        <item>-10</item>
+        <item>-12</item>
+        <item>-14</item>
+        <item>-16</item>
+    </string-array>
+    <string-array name="lib_depth1_entries">
+        <item>-1.000</item>
+        <item>0.000</item>
+        <item>0.125</item>
+        <item>0.250</item>
+        <item>0.375</item>
+        <item>@string/lib_depth_default</item>
+        <item>0.625</item>
+        <item>0.750</item>
+        <item>0.875</item>
+        <item>0.1000</item>
+        <item>1.125</item>
+        <item>1.250</item>
+        <item>1.375</item>
+        <item>1.500</item>
+        <item>1.625</item>
+        <item>1.750</item>
+        <item>1.875</item>
+        <item>2.000</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="lib_depth1_entryvalues">
+        <item>299</item>
+        <item>300</item>
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+        <item>304</item>
+        <item>305</item>
+        <item>306</item>
+        <item>307</item>
+        <item>308</item>
+        <item>309</item>
+        <item>310</item>
+        <item>311</item>
+        <item>312</item>
+        <item>313</item>
+        <item>314</item>
+        <item>315</item>
+        <item>316</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="lib_depth2_entries">
+        <item>-1.000</item>
+        <item>0.000</item>
+        <item>0.125</item>
+        <item>0.250</item>
+        <item>0.375</item>
+        <item>0.500</item>
+        <item>0.625</item>
+        <item>0.750</item>
+        <item>0.875</item>
+        <item>@string/lib_depth2_default</item>
+        <item>1.125</item>
+        <item>1.250</item>
+        <item>1.375</item>
+        <item>1.500</item>
+        <item>1.625</item>
+        <item>1.750</item>
+        <item>1.875</item>
+        <item>2.000</item>
+        <item>@string/lib_off</item>
+    </string-array>
+    <string-array name="lib_depth2_entryvalues">
+        <item>399</item>
+        <item>400000</item>
+        <item>401</item>
+        <item>402</item>
+        <item>403</item>
+        <item>404</item>
+        <item>405</item>
+        <item>406</item>
+        <item>407</item>
+        <item>408</item>
+        <item>409</item>
+        <item>410000</item>
+        <item>411</item>
+        <item>412</item>
+        <item>413</item>
+        <item>414</item>
+        <item>415</item>
+        <item>416</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="hex_dnr_entries">
+        <item>0</item>
+        <item>0.125</item>
+        <item>0.25</item>
+        <item>0.375</item>
+        <item>0.5</item>
+        <item>0.625</item>
+        <item>0.75</item>
+        <item>0.875</item>
+        <item>@string/pref_noise_hex_1000</item>
+        <item>1.125</item>
+        <item>1.25</item>
+        <item>1.375</item>
+        <item>1.5</item>
+        <item>1.625</item>
+        <item>1.75</item>
+        <item>1.875</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="hex_dnr_entryvalues">
+        <item>990</item>
+        <item>99125</item>
+        <item>99250</item>
+        <item>99375</item>
+        <item>99500</item>
+        <item>99625</item>
+        <item>99750</item>
+        <item>99875</item>
+        <item>991000</item>
+        <item>991125</item>
+        <item>991250</item>
+        <item>991375</item>
+        <item>991500</item>
+        <item>991625</item>
+        <item>991750</item>
+        <item>991875</item>
+        <item>992000</item>
+    </string-array>
+    <string-array name="pref_tonecurve_endpoints">
+        <item>+8</item>
+        <item>+7</item>
+        <item>+6</item>
+        <item>+5</item>
+        <item>+4</item>
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+        <item>-4</item>
+        <item>-5</item>
+        <item>-6</item>
+        <item>-7</item>
+        <item>-8</item>
+    </string-array>
+    <string-array name="pref_tonecurve_endpoints_entriesvalues">
+        <item>16</item>
+        <item>14</item>
+        <item>12</item>
+        <item>10</item>
+        <item>8</item>
+        <item>6</item>
+        <item>4</item>
+        <item>2</item>
+        <item>0</item>
+        <item>-2</item>
+        <item>-4</item>
+        <item>-6</item>
+        <item>-8</item>
+        <item>-10</item>
+        <item>-12</item>
+        <item>-14</item>
+        <item>-16</item>
+    </string-array>
+    <string-array name="lib_smoothing_entryvalues">
+        <item>0</item>
+        <item>9125</item>
+        <item>9250</item>
+        <item>9375</item>
+        <item>9500</item>
+        <item>9625</item>
+        <item>9750</item>
+        <item>9875</item>
+        <item>91000</item>
+        <item>91125</item>
+        <item>91250</item>
+        <item>91375</item>
+        <item>91500</item>
+        <item>91625</item>
+        <item>91750</item>
+        <item>91875</item>
+        <item>92000</item>
+        <item>99999</item>
+    </string-array>
+    <string-array name="hex_contr1_entryvalues">
+        <item>222</item>
+    </string-array>
+    <string-array name="hex_contr1_entries">
+        <item>(-1.0 New)</item>
+    </string-array>
+    <string-array name="tf_af_entries">
+        <item>@string/tf_af_2</item>
+        <item>@string/tf_af_4</item>
+        <item>@string/tf_af_6</item>
+        <item>@string/tf_af_8</item>
+        <item>@string/tf_af_10</item>
+        <item>@string/tf_af_3600</item>
+    </string-array>
+    <string-array name="tf_af_entryvalues">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>3600</item>
+    </string-array>
+    <string-array name="imageformat_entries">
+        <item>RAW10</item>
+        <item>RAW_SENSOR</item>
+    </string-array>
+    <string-array name="imageformat_entryvalues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <item type="array" name="APKTOOL_DUMMY_c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_15">false</item>
+    <item type="array" name="APKTOOL_DUMMY_16">false</item>
+    <item type="array" name="APKTOOL_DUMMY_17">false</item>
+    <item type="array" name="APKTOOL_DUMMY_18">false</item>
+    <item type="array" name="APKTOOL_DUMMY_19">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_1f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_20">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3b">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3e">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3f">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3c">false</item>
+    <item type="array" name="APKTOOL_DUMMY_3d">false</item>
+    <item type="array" name="APKTOOL_DUMMY_6">false</item>
+    <item type="array" name="APKTOOL_DUMMY_7">false</item>
+    <item type="array" name="APKTOOL_DUMMY_8">false</item>
+    <item type="array" name="APKTOOL_DUMMY_9">false</item>
+    <item type="array" name="APKTOOL_DUMMY_a">false</item>
+    <item type="array" name="APKTOOL_DUMMY_b">false</item>
+</resources>
